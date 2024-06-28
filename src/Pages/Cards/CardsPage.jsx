@@ -3,7 +3,7 @@ import CardComp from '../../Components/Card'
 import ModulePage from '../ModulePage/ModulePage'
 
 const CardsPage = () => {
-    const link = "http://dummyjson.com/users"
+    const link = "https://dummyjson.com/users"
     const [data, setData] = useState([])
     const [detail, setDetail] = useState()
 
